@@ -1,0 +1,41 @@
+#data_input {
+    height: 25px;
+    margin: 20px 20px;
+    font-size: 15px;
+    border-radius: 3px;
+    outline: medium;
+    border: slategrey 3px solid
+}
+
+#data_input:hover {
+    border: plum 3px solid;
+}
+
+#data_input:focus {
+    border: plum 3px solid;
+}
+
+button {
+    border: 1px silver solid;
+    border-radius: 2px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: rgb(207, 160, 221);
+    border: 1px silver solid;
+}
+
+#view {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+}
+
+#view div {
+    color: red;
+    background-color: red;
+    width: 20px;
+    align-items: flex-end;
+    margin-right: 10px;
+}
